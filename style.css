@@ -1,4 +1,4 @@
-#environment { width:100%; height:100%; position:absolute; }
+#environment { width:100%; height:100%; position:fixed; }
 
 .protaganist { 
 	position:absolute;

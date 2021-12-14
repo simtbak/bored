@@ -25,13 +25,17 @@ character = function() {
 movement = function(direction,character) {
 	speed = 124;
 	if(direction == 'L') { 
-		leftposition += 0-speed
+		if(leftposition > 0) { 
+			leftposition += 0-speed 
+		}
 	}
 	if(direction == 'R') { 
 		leftposition += speed
 	}
 	if(direction == 'U') { 
-		topposition += 0-speed
+		if(topposition > 0) { 
+			topposition += 0-speed 
+		}
 	}
 	if(direction == 'D') { 
 		topposition += speed
