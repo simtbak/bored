@@ -1,0 +1,11 @@
+#environment { width:100%; height:100%; position:absolute; }
+
+.protaganist { 
+	position:absolute;
+	left:0px;
+	border:2px solid green;
+	border-radius:50px;
+	width:120px;
+	height:120px;
+	transition: left 340ms, top 340ms, box-shadow 100ms;
+}
