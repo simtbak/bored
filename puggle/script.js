@@ -23,7 +23,7 @@ character = function() {
 }
 
 movement = function(direction,character) {
-	speed = 124;
+	speed = 62;
 	if(direction == 'L') { 
 		if(leftposition > 0) { 
 			leftposition += 0-speed 

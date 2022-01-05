@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+canvas { 
+	opacity:0.7;
+	position:fixed;
+	z-index:0;
+}
+
+p {
+	z-index:1;
+	position:absolute;
+	background:rgba(255,255,255,0.2);
+	width:800px;
+	margin-left:-400px;
+	padding:20px;
+	box-shadow:0 0 20px yellow;
+	border-radius:500px;
+	overflow:hidden;
+	left:50%;
+	transition: all 1s; 
+}
+
+p:hover { 
+	font-size:500px;
+	box-shadow:0 0 500px yellow;
+	width:400px;
+	height:1000px;
+	background:rgba(255,255,5,1);
+}
